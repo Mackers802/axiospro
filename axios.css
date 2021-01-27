@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(95, 114, 117);
+    color: rgb(211, 140, 47);
+    font-weight: 700;
+    text-align: center;
+    margin: 5%;
+    padding: 3%;
+}
+
+
+.addHere{
+    color: rgb(211, 140, 47);
+
+}
+
+form{
+    margin: 5px;
+}
+
+#addToDoButton{
+    background-color: rgb(1, 7, 7);
+    color: gold;
+    padding: 5px;
+    margin: 2px;
+}
+
+#buttonContainer{
+    width: 100vw;
+    left: 0px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: fixed;
+    display: inline-block;
+    margin: auto;
+}
+
+#openToDo{
+    display: inline-block;
+    position: relative;
+    color: rgb(160, 28, 48);
+}
+
+#closeToDo{
+    display: inline-block;
+    position: relative;
+    color: maroon;
+}
+
+#checkContainer{
+    justify-content: center;
+}
+
+#checkContainer > #green{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    padding: 8px 20px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
+#checkContainer > #red{
+    
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    padding: 8px 20px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+

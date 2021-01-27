@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="axios.css">
+</head>
+<body>
+    <h1>TODO List</h1>
+        <div id="buttonContainer">
+            <button id="openToDo">Open Todo's List</button>
+            <button id="closeToDo">Close Todo's List</button>
+        </div>
+    <form id="form">
+        <br>
+        <br>
+    </form>
+    <h1 class="addHere">ADD ToDo's Here</h1>
+    <form id="postForm">
+        <input id="title" type="text"  placeholder="Title:">
+        <br>
+        <input id="price" type="number" placeholder="Price:">
+        <br>
+        <input id="description" type="text" placeholder="Description">
+        <br>
+        <input id="img" type="url" placeholder="Image URL">
+        <br>
+        <button id="addToDoButton">Add Todo</button>
+        <!-- <div id="checkContainer">
+            <h2 id="green">Completed</h2>
+            <h2 id="red">Delete Me</h2>
+        </div> -->
+    </form>
+
+    <div id="container"></div>
+</body>
+<script src="axios.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>
